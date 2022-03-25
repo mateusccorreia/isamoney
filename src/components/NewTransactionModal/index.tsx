@@ -20,7 +20,7 @@ export function NewTransactionModal ({ isOpen, onRequestClose }: NewTransactionM
     function handleCreateNewTransaction(event: FormEvent) {
         event.preventDefault();
 
-        const data = {
+        const data = { 
             title,
             value, 
             category,
